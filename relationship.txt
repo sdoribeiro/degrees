@@ -1,0 +1,51 @@
+109830 - Forest Gump
+
+158, 109830 - Tom Hanks
+398, 109830 - Sally Field
+641, 109830 - Gary Sinise
+705, 109830 - Robin Wright
+
+112384 - Apollo 13
+
+158, 112384 - Tom Hanks
+102 ,112384 - Kevin Bacon
+200, 112384 - Bill Paxton
+641, 112384- Gary Sinise
+
+93779 - The Princess Bride
+
+144, 93779 - Cary Elews
+705, 93779 - Robin Wright
+1597, 93779- Mandy Patinkin
+1697, 93779 - Chris Sarandon
+
+
+104257 - A Few Good Men
+
+102, 104257 - Kevin Bacon
+129, 104257 - Tom Cruise
+193, 104257 - Demi Moore
+197, 104257- Jack Nicholson
+
+95953 - Rain Man
+
+129, 95953 - Tom Cruise
+163, 95953 - Dustin Hoffman
+420, 95953 - Valeria Golino
+596520, 95953 - Geral R. Molen
+
+------
+705, 109830 - Robin Wright
+641, 109830 - Gary Sinise
+
+641, 112384- Gary Sinise
+102, 112384 - Kevin Bacon
+
+102, 104257 - Kevin Bacon
+129, 104257 - Tom Cruise
+
+129, 95953 - Tom Cruise
+163, 95953 - Dustin Hoffman
+----
+solution = [('95953', '163'), ('104257', '129'), ('112384', '102'), ('109830', '641')]
+solution = [('109830', '641'), ('112384', '102'), ('104257', '129'), ('95953', '163')]
