@@ -110,25 +110,19 @@ def shortest_path(source, target):
         # Choose a node from the frontier
         node = frontier.remove()
         count = count + 1
-        if count % 100 ==0: 
-            print(count)
 
-        # If node is the goal, then we have a solution
-        if node.state == target:
-            print(count)
-            return create_solution(node)
 
         # Mark node as explored
         explored.add(node.state)
 
-        # Add neighbors to frontier
+        # Add neighbors to frontierpwd
         for action, state in neighbors_for_person(node.state):
             if not frontier.contains_state(state) and state not in explored:
                 child = Node(state=state, parent=node, action=action)
                 # If child is the goal, then we have a solution
-                #if child.state == target:
-                #    print(count)
-                #    return create_solution(child)
+                if child.state == target:
+                    # print(count)
+                    return create_solution(child)
                 frontier.add(child)
 
 def create_solution(node):
